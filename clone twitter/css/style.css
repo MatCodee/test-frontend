@@ -1,0 +1,120 @@
+.container-background {
+    width: 100%;
+    height: 100vh;
+}
+
+.img-background {
+    background-image: url("../img/background.png");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-background svg {
+    width: 400px;
+}
+
+
+.container-right {
+    width: 60%;
+    margin-top: 100px;
+}
+
+.title {
+    font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+    font-size: 64px;
+    line-height: 84px;
+    font-weight: 700;
+    color: #0f1419;
+}
+
+.subtitle {
+    font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+    font-size: 32px;
+    line-height: 31px;
+    font-weight: 700;
+    color: #0f1419;
+}
+
+
+.text-condition {
+    font-size: 11px;
+    line-height: 12px;
+    font-weight: 400;
+    width: 350px;
+}
+
+.text-sub {
+    color: #1d9bf0;
+}
+
+.text-bottom {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+
+
+.btn-common {
+    display: inline-block;
+    border: 1px rgb(206, 206, 206) solid;
+    border-radius: 50px;
+    background-color: transparent;
+    text-decoration: none;
+    padding: 10px 80px;
+    width: 350px;
+}
+
+.btn-google {
+    position: relative;
+    color: #0f1419;
+}
+
+.btn-google img {
+    position: absolute;
+    margin-left: 5px;
+    left: 0;
+}
+.btn-google svg {
+    position: absolute;
+    margin-right: 5px;
+    right: 0;
+}
+
+.btn-apple {
+    font-weight: 700;
+    color: black;
+}
+
+.btn-light-blue {
+    display: inline-block;
+    border-radius: 50px;
+    padding: 10px 30px;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #1d9bf0;
+    line-height: 20px;
+    font-weight: 700;
+    font-size: 15px;
+    width: 350px;
+}
+
+
+.btn-light-transparent {
+    display: inline-block;
+    border: 1px rgb(206, 206, 206) solid;
+    border-radius: 50px;
+    padding: 10px 120px;
+    color: #1d9bf0;
+    text-decoration: none;
+    background-color: transparent;
+    line-height: 20px;
+    font-weight: 700;
+    font-size: 15px;
+    width: 350px;
+}
